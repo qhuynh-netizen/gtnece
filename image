@@ -1,1 +1,7 @@
-
+/your-repo-name/
+│
+├── index.html
+├── style.css
+└── images/
+    ├── me-800-by-800.jpg
+    └── me-300-by-300.jpg
