@@ -2,52 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Ngoc Quy Huynh's Introduction Website</title>
- <link rel="stylesheet" href="me.css">   
+  <title>Ngoc Quy Huynh - Introduction Website</title>
+  <link ref="stylesheet" href=""me.css">
 </head>
 <body>
-  <h1>Getting to know each other</h1>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ngoc Quy Huynh</title>
-</head>
-<body>
-    <h1>GETTING to know each other</h1>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Your Name's Introduction Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #004080;
-    }
-    .center-image {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 100%;
-      height: auto;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <h1>Ngoc Quy Huynh - Getting to know each other</h1>
 </head>
 <body>
   <!-- Requirement 1 -->
@@ -55,9 +14,7 @@
   <p>Email: <a href="mailto:yourname@lewisu.edu">quynhuynh@lewisu.edu</a></p>
   <p>Discord: quyhuynh2_00941</p>
   <header>
-  <img src="image/me-300-by-300.png" 
-       alt="Head and shoulder photo of me"
-       class="profile-photo">
+  <img src="image/me-300-by-300.jpg" alt="Head and shoulder photo" class="center-image">
 </header>
 
 <main>
@@ -66,9 +23,7 @@
 
   <section>
     <h2>Thumbnail Version</h2>
-    <img src="image/me-800-by-800.png" 
-         alt="Thumbnail photo of me"
-         class="thumbnail">
+    <img src="image/me-800-by-800.jpg" alt="Thumbnail photo of me" class="center-image">
   </section>
 </main>
 
@@ -104,6 +59,33 @@
 </body>
 </html>
 <body>
+  <!-- CI/CD Reflection -->
+  <section>
+    <h2>CI/CD Reflection</h2>
+    <p>
+      I learned about CI/CD from an article titled <em>“What is CI/CD? Continuous integration and continuous delivery explained”</em> on InfoWorld.
+      Continuous Integration (CI) encourages developers to frequently commit small code changes to a version control system, where automated builds and tests validate the code. 
+      Continuous Delivery (CD) automates deployment to testing, staging, or production environments, ensuring software updates are reliable, fast, and safe.
+    </p>
+  </section>
+
+  <!-- HTML Enhancement: Toggle More About Me -->
+  <section>
+    <h2>More About Me</h2>
+    <button id="toggle-btn">Show More</button>
+    <div id="extra-content">
+      <p>I also enjoy hiking, coding small projects, and reading science fiction books.</p>
+    </div>
+  </section>
+  <!-- JavaScript Enhancement: Real-time Clock -->
+  <section>
+    <h2>Current Time</h2>
+    <p id="current-time"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
 
  
