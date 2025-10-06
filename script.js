@@ -16,3 +16,11 @@ function updateTime() {
   document.getElementById("current-time").innerText = now.toLocaleTimeString();
 }
 setInterval(updateTime, 1000);
+// Change name color when clicked
+const myName = document.getElementById("my-name");
+
+myName.addEventListener("click", function() {
+  // Change to your favorite color
+  this.style.color = "purple"; // or any color you like
+});
+<script src="script.js"></script>
