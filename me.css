@@ -37,3 +37,33 @@ ul {
   list-style-type: square;
   margin-left: 50px;
 }
+/* CSS Enhancement */
+#toggle-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+#extra-content {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #444;
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+  display: none; /* hidden by default */
+}
+
+#current-time {
+  font-weight: bold;
+  color: #0066cc;
+  font-size: 1.2em;
+}
