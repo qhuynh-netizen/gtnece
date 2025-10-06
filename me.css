@@ -1,0 +1,39 @@
+/* Style for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Style for headings */
+h1, h2 {
+  color: #dc057f;
+  text-align: center;
+}
+
+/* Center and resize images */
+.center-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for links */
+a {
+  color: #fc0792;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for lists */
+ul {
+  list-style-type: square;
+  margin-left: 50px;
+}
